@@ -130,7 +130,7 @@ function setup() {
  b2 = createSprite(599,175,1,350)
  b2.visible = false
 
-   gameState = 1
+   gameState = 0
    brolyDirection = "right"
 
   broly = createSprite(100,150)
