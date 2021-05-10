@@ -308,6 +308,16 @@ function draw() {
      rect(320,20,gogetahp/2.5,20)
       damage()
 
+      textSize(20)
+      fill("black")
+      textFont('Gorgia')
+      text("Press W to jump",30,100)
+      text("Press A & D to move",20,120)
+
+      text("Press UP to jump",410,100)
+      textSize(17)
+      text("Press LEFT & RIGHT to move",380,120)
+
       fill(rgb(43,194,186))
       if(attackcharge !== 0){
         rect(70,45,1,5)
